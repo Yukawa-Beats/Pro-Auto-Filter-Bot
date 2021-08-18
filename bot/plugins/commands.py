@@ -62,13 +62,13 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔔Join My Channel🔔', url=f"{UPDATE_CHANNEL}"
+                                    '🔔Join My Channel🔔', url="https://t.me/ybdemochannel"
                                 )
                         ],
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔊 InstaGram 🔊', url=f"{MT_BOT_UPDATES}"
+                                    '🔊 InstaGram 🔊', url="https://instagram.com/yukawa_beats"
                                 )
                         ]
                     ]
@@ -87,7 +87,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/ybdemochannel"
+                                    '🔔Join My Channel🔔', url="https://t.me/ybdemochannel"
                                 )
                         ]
                     ]
@@ -106,7 +106,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/ybdemochannel"
+                                    '🔔Join My Channel🔔', url="https://t.me/ybdemochannel"
                                 )
                         ]
                     ]
