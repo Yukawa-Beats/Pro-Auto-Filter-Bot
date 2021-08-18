@@ -21,20 +21,20 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/Yukawa-Beats/Pro-Auto-Filter-Bot/stargazers">
-    <img src="https://img.shields.io/github/stars/Yukawa-Beats/Pro-Auto-Filter-Bot?style=social">
+  <a href="https://github.com/Yukawa-Beats/Pro-Auto-Filter-Bot-V2/stargazers">
+    <img src="https://img.shields.io/github/stars/Yukawa-Beats/Pro-Auto-Filter-Bot-V2?style=social">
 
   </a>
   
-  <a href="https://github.com/Yukawa-beats/Pro-Auto-Filter-Bot/fork">
-    <img src="https://img.shields.io/github/forks/yukawa-Beats/Pro-Auto-Filter-Bot?label=Fork&style=social">
+  <a href="https://github.com/Yukawa-beats/Pro-Auto-Filter-Bot-V2/fork">
+    <img src="https://img.shields.io/github/forks/yukawa-Beats/Pro-Auto-Filter-Bot-V2?label=Fork&style=social">
 
   </a>  
 </p>
 
 ### Deploy
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Yukawa-Beats/Pro-Auto-Filter-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Yukawa-Beats/Pro-Auto-Filter-Bot-V2)
 
 
 ## Configs
