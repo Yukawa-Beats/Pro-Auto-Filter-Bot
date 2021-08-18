@@ -105,3 +105,4 @@ def remove_emoji(string):
     "]+", flags=re.UNICODE)
     
     return emoji_pattern.sub(r' ', str(string))
+
