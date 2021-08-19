@@ -1,7 +1,7 @@
 {
     "name": "Pro Auto Filter Bot V2",
-    "description": "Pro Auto Filter BoT V2 MoTect MRK_YT",
-    "logo": "https://telegra.ph/file/9e831d15da94deb56ef4c.png",
+    "description": "Pro Auto Filter BoT V2 Yukawa Beats",
+    "logo": "https://telegra.ph/file/d2f7059a51ef1671cf6d7.jpg",
     "keywords": [
         "Pro",
         "Auto",
@@ -9,16 +9,16 @@
         "Bot",
         "V2"
     ],
-    "website": "https://github.com/MRK-YT",
-    "repository": "https://github.com/MoTechYT/Pro-Auto-Filter-Bot-V2",
-    "success_url": "https://telegram.dog/mo_tech_yt",
+    "website": "https://github.com/Yukawa-Beats",
+    "repository": "https://github.com/Yukawa-Beats/Pro-Auto-Filter-Bot-V2",
+    "success_url": "https://telegram.dog/ybdemochannel",
     "env": {
         "APP_ID": {
-            "description": "Your APP ID From my.telegram.org or @MT_MyTelegramOrg_Bot",
+            "description": "Your APP ID From my.telegram.org ",
             "value": ""
         },
         "API_HASH": {
-            "description": "Your API Hash From my.telegram.org or @MT_MyTelegramOrg_Bot",
+            "description": "Your API Hash From my.telegram.org ",
             "value": ""
         },
         "BOT_TOKEN": {
@@ -26,7 +26,7 @@
             "value": ""
         },
         "C_ID_START": {
-            "description": "C_ID_START : Watch Tutorial Video😁",
+            "description": "C_ID_START : Upadte Channel Link😁",
             "value": ""
         },
         "DB_URI": {
@@ -34,23 +34,23 @@
             "value": ""
         },
         "G_ID_START": {
-            "description": "G_ID_START : Watch Tutorial Video😁",
+            "description": "G_ID_START : Group Link😁",
             "value": ""
         },
         "JOIN_MAIN_CHANNEL": {
-            "description": "JOIN_MAIN_CHANNEL : Watch Tutorial Video😁",
+            "description": "JOIN_MAIN_CHANNEL : Main Channel User Name Without @😁",
             "value": ""
         },
         "BOT_MASTER": {
-            "description": "MASTER_BOT : Watch Tutorial Video😁",
-            "value": "Skp_kp"
+            "description": "MASTER_BOT : Your User Id Without @😁",
+            "value": ""
         },
         "TEXT_MEG_PH": {
             "description": "TEXT_MEG_PH : Watch Tutorial Video😁",
             "value": ""
         },
         "UPDATE_CHANNEL": {
-            "description": " UPDATE_CHANNEL : Watch Tutorial Video😁",
+            "description": " UPDATE_CHANNEL : Update Channel Link😁",
             "value": ""
         },
         "USER_SESSION": {
@@ -70,3 +70,4 @@
         }
     }
 }
+
