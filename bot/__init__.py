@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG & @chekuthan
+# (c) @AlbertEinsteinTG & Yukawa Beats
 
 import os
 import logging
@@ -10,18 +10,18 @@ from logging.handlers import RotatingFileHandler
 
 from .translation import Translation
 
-# Created https://github.com/Yukawa-Beats
+# Created https://github.com/Yukawa-Beats 
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL")
 
-CHANNEL_USERNAME = os.environ.get("JOIN_MAIN_CHANNEL")
+MT_CHANNEL_USERNAME = os.environ.get("JOIN_MAIN_CHANNEL")
 
 MASSAGE_PHOTO = os.environ.get("TEXT_MEG_PH")
 
-MASTER = os.environ.get("BOT_MASTER")
+MRK_YT_MASTER = os.environ.get("BOT_MASTER")
 
-GROUP = os.environ.get("G_ID_START")
+MT_GROUP = os.environ.get("G_ID_START")
 
-CHANNEL = os.environ.get("C_ID_START")
+MT_CHANNEL = os.environ.get("C_ID_START")
 
 # Change Accordingly While Deploying To A VPS
 APP_ID = int(os.environ.get("APP_ID"))
