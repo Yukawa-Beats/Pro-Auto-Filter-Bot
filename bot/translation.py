@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG @chekuthan_0405
+# (c) @AlbertEinsteinTG @Yukawa Beats
 
 class Translation(object):
     
-    START_TEXT = """<b>🙋‍♂️Hello {}!!</b>
-<b>I am a Pro AutoFilterBot V2....😜</b>
-<b>Make me an admin for your group and channel then connect me....🎉</b>
-<b>I Will Filter Your Files...</b>
-<b>Press /help to know about available commands🤪</b>"""    
+    START_TEXT = """<b>🙋‍♂️ ഹെലോ  {}!!</b>
+<b>ഞാൻ ഒരു Auto Filter Bot ആണ്...😜</b>
+<b>എന്നെ ഉണ്ടാക്കിയത് @chekuthan_0405 ആണ്..🎉</b>
+<b>എന്നെ നിങ്ങളുടെ ഗ്രൂപ്പിലും ചാനലിലും add ആക്കിയതിനു ശേഷം എന്നെ 2 ലും അഡ്മിൻ ആക്കുക..എങ്കിൽ മാത്രമേ നിങ്ങൾക്ക്‌ എന്നെ ഉപയോഗിക്കാൻ പറ്റൂ..🙂...</b>
+<b>എന്നെ പറ്റി കൂടുതൽ അറിയാനും എന്റെ കമാൻഡ്സ് ഒക്കെ അറിയാനും /help തൊടുക🤪</b>"""    
     
     HELP_TEXT = """
 <b>😉How To Use Me!😉?</b>
@@ -39,7 +39,7 @@ class Translation(object):
 """
     
     ABOUT_TEXT = """<b>➥ 📃Name</b> : <b>Pro Auto Filter Bot</b>
-<b>>➥👨‍💼Master</b> : <b><a href="https://t.me/AlbertEinstein_TG">👤Albert Einstein</a></b>
+<b>➥👨‍💼Master</b> : <b><a href="https://t.me/AlbertEinstein_TG">👤Albert Einstein</a></b>
 <b>➥ 👨‍💻Editor</b> : <b><a href="https://t.me/chekuthan_0405">👤ChekuThaan</a></b>
 <b>➥ 🗣️Language</b> : <b>Python3<b>
 <b>➥ 📚Library</b> : <b><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></b>
