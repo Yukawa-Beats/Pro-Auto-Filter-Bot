@@ -42,8 +42,8 @@
             "value": ""
         },
         "BOT_MASTER": {
-            "description": "MASTER_BOT : Your User 😁",
-            "value": "Skp_kp"
+            "description": "MASTER_BOT : Your User Name Without @ 😁",
+            "value": ""
         },
         "TEXT_MEG_PH": {
             "description": "TEXT_MEG_PH : Telegraph File Of Your Pic😁",
