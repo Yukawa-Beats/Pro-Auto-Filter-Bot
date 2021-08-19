@@ -165,7 +165,7 @@ async def about(bot, update):
     
     buttons = [[
         InlineKeyboardButton('👤 ChekuThaan 👤', url='https://t.me/chekuthan_0405'),
-        InlineKeyboardButton('YB TG', url='https://t.me/Skp_Kp')
+        InlineKeyboardButton('YB TG', url='https://t.me/ybdemochannel')
     ],[
         InlineKeyboardButton('INSTAGRAM', url='https://instagram/yukawa_beats')
     ],[
