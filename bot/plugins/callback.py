@@ -81,7 +81,7 @@ async def cb_navg(bot, update: CallbackQuery):
 
     if ((index_val + 1 )== max_pages) or ((index_val + 1) == len(results)): # Max Pages
         temp_results.append([
-            InlineKeyboardButton("«««", callback_data=f"navigate({index_val}|back|{query})")
+            InlineKeyboardButton("««« Back", callback_data=f"navigate({index_val}|back|{query})")
         ])
 
     elif int(index_val) == 0:
@@ -89,8 +89,8 @@ async def cb_navg(bot, update: CallbackQuery):
 
     else:
         temp_results.append([
-            InlineKeyboardButton("«««", callback_data=f"navigate({index_val}|back|{query})"),
-            InlineKeyboardButton("»»»", callback_data=f"navigate({index_val}|next|{query})")
+            InlineKeyboardButton("««« Back", callback_data=f"navigate({index_val}|back|{query})"),
+            InlineKeyboardButton("Next »»»", callback_data=f"navigate({index_val}|next|{query})")
         ])
 
     if not int(index_val) == 0:    
@@ -1639,15 +1639,15 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('👨‍💼𝙼𝚢 𝙳𝚎𝚟', url='https://t.me/ybdemochannel'),
+            InlineKeyboardButton('👨‍💼𝙼𝚢 𝙳𝚎𝚟', url='https://t.me/chekuthan_0405'),
             InlineKeyboardButton('𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎🧾', url ='https://github.com/Yukawa-Beats/Pro-Auto-Filter-Bot-V2')
         ],[
             InlineKeyboardButton('⚙️𝙷𝚎𝚕𝚙⚙️', callback_data="help")
         ],[
-            InlineKeyboardButton('YouTube', url='https://youtube.com/channel/UCnI4WI9dFLez9GmMi54EyEA'),
-            InlineKeyboardButton('𝚄𝚙𝚍𝚊𝚝𝚎𝚜🤖', url='https://t.me/ybdemochannel')
+            InlineKeyboardButton('TELEGRAM', url='https://t.me/ybdemochannel'),
+            InlineKeyboardButton('INSTAGRAM', url='https://instagram.com/yukawa_beats')
         ],[
-            InlineKeyboardButton('InstaGram', url='https://instagram.com/yukawa_beats')
+            InlineKeyboardButton('🖥️ Subscribe YouTube 🖥️', url='https://youtube.com/channel/UCnI4WI9dFLez9GmMi54EyEA')
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1662,10 +1662,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "help":
         buttons = [[
-            InlineKeyboardButton('🏠 𝙷𝚘𝚖𝚎', callback_data='start'),
-            InlineKeyboardButton('𝙰𝚋𝚘𝚞𝚝 🚩', callback_data='about')
+            InlineKeyboardButton('🏠 Home', callback_data='start'),
+            InlineKeyboardButton('About 🚩', callback_data='about')
         ],[
-            InlineKeyboardButton('🔐 𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
+            InlineKeyboardButton('🔐 Close 🔐', callback_data='close')
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1680,11 +1680,14 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('👤ChekuThaan', url='https://t.me/chekuthan_0405')
-            ],[
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('Close 🔐', callback_data='close')
-        ]]
+        InlineKeyboardButton('👤 ChekuThaan 👤', url='https://t.me/chekuthan_0405'),
+        InlineKeyboardButton('YB TG', url='https://t.me/ybdemochannel')
+    ],[
+        InlineKeyboardButton('INSTAGRAM', url='https://instagram/yukawa_beats')
+    ],[
+        InlineKeyboardButton('🏠 Home', callback_data='start'),
+        InlineKeyboardButton('Close 🔐', callback_data='close')
+    ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
         
