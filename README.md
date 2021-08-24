@@ -3,7 +3,7 @@
 ## MY Details 👤:
 
 <p align="middle">
-<img src="https://telegra.ph/file/d2f7059a51ef1671cf6d7.jpg" width="150" height="150"><br>
+<img src="https://telegra.ph/file/02edc63667bee3ecb44a2.jpg" width="150" height="150"><br>
 <img src="https://badgen.net/badge/Nᴀᴍᴇ/Yukawa-Beats/FF33FF?icon=awesome&labelColor=0080FF"></a>
 <img src="https://badgen.net/badge/Sᴋɪʟʟs/NO/purple?icon=terminal&labelColor=red"></a>
 <a href="https://telegram.dog/ybdemochannel"><img src="https://img.shields.io/badge/Tᴇʟᴇɢʀᴀᴍ-Lɪɴᴋ-blue.svg?logo=telegram"></a>
