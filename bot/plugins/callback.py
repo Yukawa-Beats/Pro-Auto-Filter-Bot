@@ -1601,8 +1601,8 @@ async def cb_about(bot, update: CallbackQuery):
     text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
     text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
-    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/Mo_Tech_YT">Mo Tech YT</a>\n"""
-    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/Mo_Tech_YT/Pro-Filter-Bot-V2">Source</a>"""
+    text+=f"""\n<b><i>Support IG:</i></b> <a href="https://instagram.com/yukawa_beats">Yukawa Beats</a>\n"""
+    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/Yukawa-Beats/Pro-Filter-Bot-V2">Source</a>"""
 
     buttons = [
         [
@@ -1639,10 +1639,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('👨‍💼𝙼𝚢 𝙳𝚎𝚟', url='https://t.me/chekuthan_0405'),
-            InlineKeyboardButton('𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎🧾', url ='https://github.com/Yukawa-Beats/Pro-Auto-Filter-Bot-V2')
+            InlineKeyboardButton('👨‍💼 My Dev', url='https://t.me/chekuthan_0405'),
+            InlineKeyboardButton('Source Code🧾', url ='https://github.com/Yukawa-Beats/Pro-Auto-Filter-Bot-V2')
         ],[
-            InlineKeyboardButton('⚙️𝙷𝚎𝚕𝚙⚙️', callback_data="help")
+            InlineKeyboardButton('⚙️ Help ⚙️', callback_data="help")
         ],[
             InlineKeyboardButton('TELEGRAM', url='https://t.me/ybdemochannel'),
             InlineKeyboardButton('INSTAGRAM', url='https://instagram.com/yukawa_beats')
