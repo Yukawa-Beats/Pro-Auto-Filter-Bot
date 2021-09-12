@@ -22,7 +22,7 @@ async def start(bot, update):
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked out":
-               await update.reply_text("😔 Sorry Dude , You Are  **🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 🤣🤣🤣**")
+               await update.reply_text("😔 SORRY DUDE YOU ARE BANNED 🤣🤣🤣**")
                return
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
@@ -34,7 +34,7 @@ async def start(bot, update):
             )
             return
         except Exception:
-            await update.reply_text(f"<b>This bot should be the admin on your update channel</b>\n\n<b>💢 ഈ ചാനലിൽ  @{UPDATE_CHANNEL} ബോട്ടിനെ അഡ്മിൻ ആക്. എന്നിട്ട് /start കൊടുക്</b>\n\n<b> ഈ ചാനലിൽ ജോയിൻ ആവുക @ybdemochannel </b>")
+            await update.reply_text(f"<b>This bot should be the admin on your update channel</b>\n\n<b>💢 ഈ ചാനലിൽ  @{UPDATE_CHANNEL} ബോട്ടിനെ അഡ്മിൻ ആക്. എന്നിട്ട് /start കൊടുക്</b>\n\n<b> ഈ ചാനലിൽ ജോയിൻ ആവുക @yYUKAWABEATS </b>")
             return  
     try:
         file_uid = update.command[1]
@@ -64,13 +64,8 @@ async def start(bot, update):
                                 (
                                     '🔔Join My Channel🔔', url=f"{MT_CHANNEL}"
                                 )
-                        ],
-                        [
-                            InlineKeyboardButton
-                                (
-                                    '🔊 Creater Channel 🔊', url=f"{MT_BOT_UPDATES}"
-                                )
                         ]
+                        
                     ]
                 )
             )
@@ -163,10 +158,10 @@ async def help(bot, update):
 @Client.on_message(filters.command(["about"]) & filters.private, group=1)
 async def about(bot, update):
      buttons = [[
-        InlineKeyboardButton('👤 ChekuThaan 👤', url='https://t.me/chekuthan_0405'),
-        InlineKeyboardButton('YB TG', url='https://t.me/ybdemochannel')
+        InlineKeyboardButton('👤 Master 👤', url='https://t.me/yukawabeats'),
+        InlineKeyboardButton('Channel', url='https://t.me/ybdemochannel')
     ],[
-        InlineKeyboardButton('INSTAGRAM', url='https://instagram/yukawa_beats')
+        InlineKeyboardButton('InstaGram', url='https://instagram/yukawa_beats')
     ],[
         InlineKeyboardButton('🏠 Home', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
