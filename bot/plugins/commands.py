@@ -166,7 +166,7 @@ async def about(bot, update):
         InlineKeyboardButton('🏠 Home', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]  
-    reply_markup = InlineKeyboardMarkup(buttons)
+    reply_markup = InlineKeyboardMarkup (buttons)
     
     await bot.send_message(
         chat_id=update.chat.id,
