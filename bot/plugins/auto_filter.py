@@ -86,7 +86,7 @@ async def auto_filter(bot, update):
             file_size = "" if file_size == ("[0 B]") else file_size
             
             # add emoji down below inside " " if you want..
-            button_text = f"{file_size}🗂️{file_name}"
+            button_text = f"📨{file_size}{file_name}"
             
 
             if file_type == "video":
@@ -209,7 +209,7 @@ async def auto_filter(bot, update):
             await bot.send_photo(
                 chat_id = update.chat.id,
                 photo= MASSAGE_PHOTO,
-                caption=f"<b>🗂️Total File :- {(len_results)} </b>\n<b>🎬Movie Name :-</b> <code>{query}</code>",
+                caption=f"FOUND RESULTS</b>\n\n<b>🗂️Total File :- {(len_results)} </b>\n<b>🎬Movie Name :-</b> <code>{query}</code>\n\n Join <b> @YUKAWABEATS </b>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
