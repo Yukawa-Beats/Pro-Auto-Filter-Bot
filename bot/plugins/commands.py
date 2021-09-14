@@ -120,7 +120,7 @@ async def start(bot, update):
         InlineKeyboardButton('🗣️Group', url=f'{MT_GROUP}'),
         InlineKeyboardButton('Channel🔊', url=f'{MT_CHANNEL}')
     ],[
-        InlineKeyboardButton('🖥️ Bot Creator 🖥️', url='https://instagram.com/yukawa_beats')
+        InlineKeyboardButton('🖥️ INSTAGRAM 🖥️', url='https://instagram.com/yukawa_beats')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
