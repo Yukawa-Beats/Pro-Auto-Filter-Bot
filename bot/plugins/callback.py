@@ -52,7 +52,7 @@ async def cb_navg(bot, update: CallbackQuery):
         VERIFY[str(chat_id)] = admin_list
     
     if not ((user_id == ruser_id) or (user_id in admin_list)): # Checks if user is same as requested user or is admin
-        await update.answer("Nice Try ;)",show_alert=True)
+        await update.answer("ഇത് നിനക്കുള്ളതല്ല..നിനക്ക് വേണേൽ നീ ചോയ്ക്ക്😒"),show_alert=True)
         return
 
 
@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<b>🗂️Total File :- {leng}</b>\n<b>🎬Movie Name :-</b> <code>{query}</code>"
+    text=f"<b>FOUND RESULTS</b>\n<b>🗂️Total File :- {leng}</b>\n<b>🎬Movie Name :-</b> <code>{query}</code>\n\n Join <b> @YUKAWABEATS </b>"
         
     try:
         await update.message.edit(
@@ -580,7 +580,7 @@ async def cb_disconnect(bot, update: CallbackQuery):
     remove_active = await db.del_active(chat_id, int(channel_id))
     
     if not remove_active:
-        await update.answer("Couldnt Full Fill YOur Request...\n Report This @CrazyBotszGrp Along With Bot's Log", show_alert=True)
+        await update.answer("Couldnt Full Fill Your Request...", show_alert=True)
         return
     
     text= f"<i>Sucessfully Disconnected From</i> <code>{channel_name}</code>\n"
@@ -1639,13 +1639,13 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('👨‍💼 My Dev', url='https://t.me/chekuthan_0405'),
+            InlineKeyboardButton('👨‍💼 My Dev', url='https://t.me/yukawabeats'),
             InlineKeyboardButton('Source Code🧾', url ='https://github.com/Yukawa-Beats/Pro-Auto-Filter-Bot-V2')
         ],[
             InlineKeyboardButton('⚙️ Help ⚙️', callback_data="help")
         ],[
-            InlineKeyboardButton('TELEGRAM', url='https://t.me/ybdemochannel'),
-            InlineKeyboardButton('INSTAGRAM', url='https://instagram.com/yukawa_beats')
+            InlineKeyboardButton('Channel', url='https://t.me/ybdemochannel'),
+            InlineKeyboardButton('Instagram', url='https://instagram.com/yukawa_beats')
         ],[
             InlineKeyboardButton('🖥️ Subscribe YouTube 🖥️', url='https://youtube.com/channel/UCnI4WI9dFLez9GmMi54EyEA')
         ]]
@@ -1680,10 +1680,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-        InlineKeyboardButton('👤 ChekuThaan 👤', url='https://t.me/chekuthan_0405'),
-        InlineKeyboardButton('YB TG', url='https://t.me/ybdemochannel')
+        InlineKeyboardButton('👤 Master 👤', url='https://t.me/yukawabeats'),
+        InlineKeyboardButton('Channel', url='https://t.me/ybdemochannel')
     ],[
-        InlineKeyboardButton('INSTAGRAM', url='https://instagram/yukawa_beats')
+        InlineKeyboardButton('Instagram', url='https://instagram/yukawa_beats')
     ],[
         InlineKeyboardButton('🏠 Home', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
