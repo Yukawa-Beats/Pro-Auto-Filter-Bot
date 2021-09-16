@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG
+# (c) @AlbertEinsteinTG & @YUKAWABEATS
 
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
@@ -22,14 +22,14 @@ async def start(bot, update):
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked out":
-               await update.reply_text("😔 Sorry Dude, You are **🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 🤣🤣🤣**")
+               await update.reply_text("😔 Sorry Dude, You are Banned🤣")
                return
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
-                text="<b>🔊 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 🤭.\n\nനിങ്ങൾക്ക് മൂവീസ് വേണോ? എങ്കിൽ തായെ കാണുന്ന ഞങ്ങളുടെ മെയിൻ ചാനലിൽ ജോയിൻ ചെയ്യുക.😂\nഎന്നിട്ട് ഗ്രൂപ്പിൽ പോയി വീണ്ടും മൂവിയിൽ ക്ലിക് ചെയ്ത് start കൊടുത്തു നോക്കൂ..!😁</b>",
+                text="<b>🔊 Join My Channel 🤭.\n\nതാഴെ കാണുന്ന ഞങ്ങളുടെ മെയിൻ ചാനലിൽ ജോയിൻ ചെയ്യുക.😂\nഎന്നിട്ട് ഗ്രൂപ്പിൽ പോയി വീണ്ടും മൂവിയിൽ ക്ലിക് ചെയ്ത് start കൊടുത്തു നോക്കൂ..!😁</b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=" 💢 𝙹𝚘𝚒𝚗 𝙼𝚢 𝚄𝚙𝚍𝚊𝚝𝚎𝚜 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 💢 ", url=f"https://t.me/{UPDATE_CHANNEL}")]
+                    [ InlineKeyboardButton(text=" 💢 Join My Channel 💢 ", url=f"https://t.me/{UPDATE_CHANNEL}")]
               ])
             )
             return
@@ -62,15 +62,10 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔔Join Main Channel🔔', url=f"{MT_CHANNEL}"
-                                )
-                        ],
-                        [
-                            InlineKeyboardButton
-                                (
-                                    '🔊 Bot Updates 🔊', url=f"{MT_BOT_UPDATES}"
+                                    '🔔Join My Channel🔔', url=f"{MT_CHANNEL}"
                                 )
                         ]
+                        
                     ]
                 )
             )
@@ -87,7 +82,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/Mo_TECH_YT"
+                                    '🔔Join My Channel🔔', url=f"{MT_CHANNEL}"
                                 )
                         ]
                     ]
@@ -106,7 +101,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/Mo_TECH_YT"
+                                    '🔔Join My Channel🔔', url=f"{MT_CHANNEL}"
                                 )
                         ]
                     ]
@@ -125,7 +120,7 @@ async def start(bot, update):
         InlineKeyboardButton('🗣️Group', url=f'{MT_GROUP}'),
         InlineKeyboardButton('Channel🔊', url=f'{MT_CHANNEL}')
     ],[
-        InlineKeyboardButton('🖥️ Tutorial Video 🖥️', url='https://youtu.be/OTqZmADyOjU')
+        InlineKeyboardButton('🖥️ InstaGram 🖥️', url='https://instagram.com/yukawa_beats')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -143,10 +138,10 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('🏠 𝙷𝚘𝚖𝚎', callback_data='start'),
-        InlineKeyboardButton('𝙰𝚋𝚘𝚞𝚝 🚩', callback_data='about')
+        InlineKeyboardButton('🏠 Home', callback_data='start'),
+        InlineKeyboardButton('About 🚩', callback_data='about')
     ],[
-        InlineKeyboardButton('🔐 𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
+        InlineKeyboardButton('🔐 Close 🔐', callback_data='close')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -164,10 +159,10 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('👤 Mrk YT👤', url='https://t.me/MRK_YT'),
-        InlineKeyboardButton('Skp KP👤', url='https://t.me/Skp_Kp')
+        InlineKeyboardButton('YUKAWA BEATS👤', url='https://t.me/yukawabeats'),
+        InlineKeyboardButton('My Channel', url='https://t.me/yukawabeats')
     ],[
-        InlineKeyboardButton('👤 AlbertEinstein 👤', url='https://t.me/AlbertEinsteinTG')
+        InlineKeyboardButton('Instagram', url='https://instagram.com/yukawa_beats')
     ],[
         InlineKeyboardButton('🏠 Home', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
